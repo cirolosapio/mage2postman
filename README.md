@@ -5,8 +5,8 @@ Generate postman collection from Magento
 ### Install
 
 ```
-curl -L https://github.com/cirolosapio/mage2postman/releases/download/latest/mage2postman -o /usr/local/bin/mage2postman
-chmod +x /usr/local/bin/mage2postman
+sudo curl -L https://github.com/cirolosapio/mage2postman/releases/download/v0.0.1/mage2postman -o /usr/local/bin/mage2postman
+sudo chmod +x /usr/local/bin/mage2postman
 ```
 
 in your magento app run
