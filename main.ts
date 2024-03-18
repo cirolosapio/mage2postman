@@ -60,6 +60,9 @@ const collection = Object.entries(sorted).reduce((res, [file, routes]) => {
 	return res
 }, { info, item: [] } as PostmanCollection)
 
-await Deno.writeFile(`${info.name}.postman_collection.json`, new TextEncoder().encode(JSON.stringify(collection)))
 
-console.log(`done in ${performance.now() - time} ms`)
+const filename = `${info.name}.postman_collection.json`
+
+await Deno.writeFile(filename, new TextEncoder().encode(JSON.stringify(collection)))
+
+console.log(`generated ${filename} in ${performance.now() - time} ms`)
