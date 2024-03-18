@@ -1,0 +1,12 @@
+{
+	"tasks": {
+		"dev": "deno run --watch main.ts",
+		"compile": "deno compile --allow-write --allow-read -o mage2postman main.ts"
+	},
+	"fmt": {
+		"lineWidth": 9999,
+		"semiColons": false,
+		"singleQuote": true,
+		"useTabs": true
+	}
+}

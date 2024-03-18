@@ -1,0 +1,20 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "npm:destr": "npm:destr@2.0.3",
+      "npm:flat": "npm:flat@6.0.1"
+    },
+    "npm": {
+      "destr@2.0.3": {
+        "integrity": "sha512-2N3BOUU4gYMpTP24s5rF5iP7BDr7uNTCs4ozw3kf/eKfvWSIu93GEBi5m427YoyJoeOzQ5smuu4nNAPGb8idSQ==",
+        "dependencies": {}
+      },
+      "flat@6.0.1": {
+        "integrity": "sha512-/3FfIa8mbrg3xE7+wAhWeV+bd7L2Mof+xtZb5dRDKZ+wDvYJK4WDYeIOuOhre5Yv5aQObZrlbRmk3RTSiuQBtw==",
+        "dependencies": {}
+      }
+    }
+  },
+  "remote": {}
+}
