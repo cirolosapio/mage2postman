@@ -1,5 +1,7 @@
 # mage2postman
 
+![image](https://github.com/cirolosapio/mage2postman/assets/33943143/13ca8bac-d8fe-43d8-b7a2-07f6aeff45e9)
+
 Generate postman collection from Magento
 
 ### Install
