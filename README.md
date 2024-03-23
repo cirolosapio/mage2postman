@@ -4,6 +4,20 @@
 
 Generate postman collection from Magento
 
+### One line command
+
+```
+docker run \
+    --interactive \
+    --tty \
+    --rm \
+    --volume $PWD:/app \
+    --workdir /app \
+    denoland/deno:1.41.3 \
+    run -A \
+    "https://raw.githubusercontent.com/cirolosapio/mage2postman/main/main.ts"
+```
+
 ### Install
 
 ```
