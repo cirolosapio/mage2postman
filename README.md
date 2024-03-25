@@ -13,7 +13,7 @@ docker run \
     --rm \
     --volume $PWD:/app \
     --workdir /app \
-    denoland/deno:1.41.3 \
+    denoland/deno:alpine-1.41.3 \
     run -A \
     "https://raw.githubusercontent.com/cirolosapio/mage2postman/main/main.ts"
 ```
